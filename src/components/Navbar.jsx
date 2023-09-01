@@ -1,9 +1,13 @@
-import React from 'react'
+import React from 'react';
 
-const Navbar = () => {
+function Navbar() {
   return (
-    <div>Navbar</div>
-  )
+    <nav className="bg-slate-500 p-4">
+      <div className="container mx-auto">
+        <div className="text-white font-bold text-xl">FDPS</div>
+      </div>
+    </nav>
+  );
 }
 
-export default Navbar
+export default Navbar;
